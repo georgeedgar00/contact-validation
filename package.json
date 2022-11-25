@@ -1,0 +1,21 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "By George Edgar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeedgar00/contact-validation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgeedgar00/contact-validation/issues"
+  },
+  "homepage": "https://github.com/georgeedgar00/contact-validation#readme"
+}
