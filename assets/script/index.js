@@ -2,7 +2,7 @@ import {onEvent, select, selectAll, create, log} from './utils.js';
 import {Contact} from "./contact.js";
 
 const emailRegex = /^(?=^.{8,}$)[-_A-Za-z0-9]+([_.-][a-zA-Z0-9]+)*@[A-Za-z0-9]+([.-][a-zA-Z0-9]+)*\.[A-Za-z]{2,}$/;
-const nameRegex = /^[a-zA-Z ]{2,30}$/;
+const nameRegex = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
 const cityRegex = /^(?:[A-Za-z]{2,}(?:(\.\s|'s\s|\s?-\s?|\s)?(?=[A-Za-z]+))){1,2}(?:[A-Za-z]+)?$/;
 
 const add = select('.create-btn');
